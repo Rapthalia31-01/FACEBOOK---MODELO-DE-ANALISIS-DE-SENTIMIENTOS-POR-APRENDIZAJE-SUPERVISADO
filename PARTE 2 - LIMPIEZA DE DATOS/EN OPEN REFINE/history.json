@@ -1,0 +1,106 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "grel:value.replace('#','') .replace('@','') .replace('URL','') .replace(/\\:.*/,'') .replace('?','') .replace('¿','') .replace('!','') .replace('¡','')\n.replace('.','') .replace('(','') .replace('-','') .replace('/','') .replace('&','') .replace(':','')\n.replace(')','') .replace(',','') .replace('\"','') .replace('*','') .replace('$','') .replace('%','') .replace('+','')\n.replace(';','') .replace('<','') .replace('>','') .replace('[','') .replace(']','') .replace('_','').replace('{','') \n.replace('}','') .replace('~','') .replace('|','') .replace('^','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression grel:value.replace('#','') .replace('@','') .replace('URL','') .replace(/\\:.*/,'') .replace('?','') .replace('¿','') .replace('!','') .replace('¡','')\n.replace('.','') .replace('(','') .replace('-','') .replace('/','') .replace('&','') .replace(':','')\n.replace(')','') .replace(',','') .replace('\"','') .replace('*','') .replace('$','') .replace('%','') .replace('+','')\n.replace(';','') .replace('<','') .replace('>','') .replace('[','') .replace(']','') .replace('_','').replace('{','') \n.replace('}','') .replace('~','') .replace('|','') .replace('^','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "grel:value.replace('0','') .replace('1','') .replace('2','') .replace('3','') .replace('4','') .replace('5','') .replace('6','') .replace('7','') .replace('8','') .replace('9','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression grel:value.replace('0','') .replace('1','') .replace('2','') .replace('3','') .replace('4','') .replace('5','') .replace('6','') .replace('7','') .replace('8','') .replace('9','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "grel:value.replace(\"dr\",\"doctor\") .replace(\"Jjjjjjj\",\"risa\") .replace(\"full\",\"mucha\") .replace(\"dra\",\"doctora\") .replace(\"sr\",\"señor\") .replace(\"sra\",\"señora\") .replace(\"srs\",\"señores\") .replace(\"ud\",\"usted\") .replace(\"usd\",\"usted\") .replace(\"uds\",\"ustedes\") .replace(\"chch\",\"malapalabra\") .replace(\"ing\",\"ingeniero\") .replace(\"xq\",\"por que\") .replace(\"dt\",\"director tecnico\") .replace(\"hp\",\"malapalabra\") .replace(\"hdp\",\"malapalabra\") .replace(\"hpta\",\"malapalabra\") .replace(\"hptas\",\"malapalabra\") .replace(\" vs \",\"versus\") .replace(\"codiv\",\"covid\") .replace(\" d \",\"de\")\n.replace(\" p \",\"por\") .replace(\" q \",\"que\") \n.replace(\" n \",\"ni\") .replace(\" t \",\"te\") .replace(\" Xq \",\"por que\") .replace(\" MSP \",\"Ministerio de Salud Pública\") .replace(\"otr\",\"otro\") .replace('NO HAY TEXTO','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression grel:value.replace(\"dr\",\"doctor\") .replace(\"Jjjjjjj\",\"risa\") .replace(\"full\",\"mucha\") .replace(\"dra\",\"doctora\") .replace(\"sr\",\"señor\") .replace(\"sra\",\"señora\") .replace(\"srs\",\"señores\") .replace(\"ud\",\"usted\") .replace(\"usd\",\"usted\") .replace(\"uds\",\"ustedes\") .replace(\"chch\",\"malapalabra\") .replace(\"ing\",\"ingeniero\") .replace(\"xq\",\"por que\") .replace(\"dt\",\"director tecnico\") .replace(\"hp\",\"malapalabra\") .replace(\"hdp\",\"malapalabra\") .replace(\"hpta\",\"malapalabra\") .replace(\"hptas\",\"malapalabra\") .replace(\" vs \",\"versus\") .replace(\"codiv\",\"covid\") .replace(\" d \",\"de\")\n.replace(\" p \",\"por\") .replace(\" q \",\"que\") \n.replace(\" n \",\"ni\") .replace(\" t \",\"te\") .replace(\" Xq \",\"por que\") .replace(\" MSP \",\"Ministerio de Salud Pública\") .replace(\"otr\",\"otro\") .replace('NO HAY TEXTO','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "grel:value.replace('á','a') .replace('é','e') .replace('í','i') .replace('ó','o') .replace('ú','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression grel:value.replace('á','a') .replace('é','e') .replace('í','i') .replace('ó','o') .replace('ú','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression value.toLowercase()"
+  }
+]

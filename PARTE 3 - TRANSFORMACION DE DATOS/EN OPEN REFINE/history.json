@@ -1,0 +1,7512 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "grel:value.replace('#','') .replace('@','') .replace('URL','') .replace(/\\:.*/,'') .replace('?','') .replace('¿','') .replace('!','') .replace('¡','')\n.replace('.','') .replace('(','') .replace('-','') .replace('/','') .replace('&','') .replace(':','')\n.replace(')','') .replace(',','') .replace('\"','') .replace('*','') .replace('$','') .replace('%','') .replace('+','')\n.replace(';','') .replace('<','') .replace('>','') .replace('[','') .replace(']','') .replace('_','').replace('{','') \n.replace('}','') .replace('~','') .replace('|','') .replace('^','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression grel:value.replace('#','') .replace('@','') .replace('URL','') .replace(/\\:.*/,'') .replace('?','') .replace('¿','') .replace('!','') .replace('¡','')\n.replace('.','') .replace('(','') .replace('-','') .replace('/','') .replace('&','') .replace(':','')\n.replace(')','') .replace(',','') .replace('\"','') .replace('*','') .replace('$','') .replace('%','') .replace('+','')\n.replace(';','') .replace('<','') .replace('>','') .replace('[','') .replace(']','') .replace('_','').replace('{','') \n.replace('}','') .replace('~','') .replace('|','') .replace('^','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "grel:value.replace('0','') .replace('1','') .replace('2','') .replace('3','') .replace('4','') .replace('5','') .replace('6','') .replace('7','') .replace('8','') .replace('9','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression grel:value.replace('0','') .replace('1','') .replace('2','') .replace('3','') .replace('4','') .replace('5','') .replace('6','') .replace('7','') .replace('8','') .replace('9','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "grel:value.replace(\"dr\",\"doctor\") .replace(\"Jjjjjjj\",\"risa\") .replace(\"full\",\"mucha\") .replace(\"dra\",\"doctora\") .replace(\"sr\",\"señor\") .replace(\"sra\",\"señora\") .replace(\"srs\",\"señores\") .replace(\"ud\",\"usted\") .replace(\"usd\",\"usted\") .replace(\"uds\",\"ustedes\") .replace(\"chch\",\"malapalabra\") .replace(\"ing\",\"ingeniero\") .replace(\"xq\",\"por que\") .replace(\"dt\",\"director tecnico\") .replace(\"hp\",\"malapalabra\") .replace(\"hdp\",\"malapalabra\") .replace(\"hpta\",\"malapalabra\") .replace(\"hptas\",\"malapalabra\") .replace(\" vs \",\"versus\") .replace(\"codiv\",\"covid\") .replace(\" d \",\"de\")\n.replace(\" p \",\"por\") .replace(\" q \",\"que\") \n.replace(\" n \",\"ni\") .replace(\" t \",\"te\") .replace(\" Xq \",\"por que\") .replace(\" MSP \",\"Ministerio de Salud Pública\") .replace(\"otr\",\"otro\") .replace('NO HAY TEXTO','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression grel:value.replace(\"dr\",\"doctor\") .replace(\"Jjjjjjj\",\"risa\") .replace(\"full\",\"mucha\") .replace(\"dra\",\"doctora\") .replace(\"sr\",\"señor\") .replace(\"sra\",\"señora\") .replace(\"srs\",\"señores\") .replace(\"ud\",\"usted\") .replace(\"usd\",\"usted\") .replace(\"uds\",\"ustedes\") .replace(\"chch\",\"malapalabra\") .replace(\"ing\",\"ingeniero\") .replace(\"xq\",\"por que\") .replace(\"dt\",\"director tecnico\") .replace(\"hp\",\"malapalabra\") .replace(\"hdp\",\"malapalabra\") .replace(\"hpta\",\"malapalabra\") .replace(\"hptas\",\"malapalabra\") .replace(\" vs \",\"versus\") .replace(\"codiv\",\"covid\") .replace(\" d \",\"de\")\n.replace(\" p \",\"por\") .replace(\" q \",\"que\") \n.replace(\" n \",\"ni\") .replace(\" t \",\"te\") .replace(\" Xq \",\"por que\") .replace(\" MSP \",\"Ministerio de Salud Pública\") .replace(\"otr\",\"otro\") .replace('NO HAY TEXTO','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "grel:value.replace('á','a') .replace('é','e') .replace('í','i') .replace('ó','o') .replace('ú','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression grel:value.replace('á','a') .replace('é','e') .replace('í','i') .replace('ó','o') .replace('ú','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression value.replace(/[‘’‚‛‹›‚]/,\"\\'\").replace(/[“”«»„]/,\"\\\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column message using expression value.toLowercase()"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "message"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "message",
+    "keyColumnName": "message",
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "description": "Split multi-valued cells in column message"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "asi",
+          "asì",
+          "así"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "asi"
+      },
+      {
+        "from": [
+          "investigacion",
+          "investigación"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "investigacion"
+      },
+      {
+        "from": [
+          "unica",
+          "única"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "unica"
+      },
+      {
+        "from": [
+          "mas",
+          "más"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mas"
+      },
+      {
+        "from": [
+          "sintomas",
+          "síntomas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sintomas"
+      },
+      {
+        "from": [
+          "deberia",
+          "deberìa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "deberia"
+      },
+      {
+        "from": [
+          "que",
+          "qué"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "que"
+      },
+      {
+        "from": [
+          "esta",
+          "està"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "esta"
+      },
+      {
+        "from": [
+          "estos",
+          "éstos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estos"
+      },
+      {
+        "from": [
+          "lastima",
+          "lástima"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lastima"
+      },
+      {
+        "from": [
+          "propagacion",
+          "propagación"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "propagacion"
+      },
+      {
+        "from": [
+          "el",
+          "èl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "el"
+      },
+      {
+        "from": [
+          "deberian",
+          "deberían"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "deberian"
+      },
+      {
+        "from": [
+          "oficiales",
+          "\"oficiales\""
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oficiales"
+      },
+      {
+        "from": [
+          "salio",
+          "salió"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "salio"
+      }
+    ],
+    "description": "Mass edit cells in column message"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "y",
+          "a",
+          "o",
+          "x",
+          "e",
+          "s",
+          "k",
+          "q",
+          "i",
+          "h"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "y"
+      },
+      {
+        "from": [
+          "casa",
+          "casas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "casa"
+      },
+      {
+        "from": [
+          "toodos",
+          "tooodooos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "todos"
+      },
+      {
+        "from": [
+          "positivos",
+          "positivo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "positivos"
+      },
+      {
+        "from": [
+          "irresponsables",
+          "irresponsable"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "irresponsables"
+      },
+      {
+        "from": [
+          "para",
+          "parara"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "para"
+      },
+      {
+        "from": [
+          "sospechosos",
+          "sospechoso"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sospechosos"
+      },
+      {
+        "from": [
+          "samborondo",
+          "samborondon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "samborondo"
+      },
+      {
+        "from": [
+          "andan",
+          "anda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "andan"
+      },
+      {
+        "from": [
+          "mascarillas",
+          "mascarilla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mascarillas"
+      },
+      {
+        "from": [
+          "viene",
+          "vienen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "viene"
+      },
+      {
+        "from": [
+          "este",
+          "estes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "este"
+      },
+      {
+        "from": [
+          "tiene",
+          "tienen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tiene"
+      }
+    ],
+    "description": "Mass edit cells in column message"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "y",
+          "ya",
+          "yo",
+          "ay",
+          "ahhhhh",
+          "eh",
+          "oh",
+          "uh",
+          "wy",
+          "ooooo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "y"
+      },
+      {
+        "from": [
+          "por",
+          "para",
+          "pero",
+          "peor",
+          "burro",
+          "peru",
+          "pooor",
+          "pre",
+          "pura",
+          "poer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "por"
+      },
+      {
+        "from": [
+          "es",
+          "eso",
+          "asi",
+          "ese",
+          "esa",
+          "osea",
+          "iess",
+          "uci",
+          "ice"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "iess"
+      },
+      {
+        "from": [
+          "quiere",
+          "creo",
+          "correa",
+          "cara",
+          "crea",
+          "cree",
+          "quiera",
+          "quiero",
+          "qur"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "quiere"
+      },
+      {
+        "from": [
+          "ser",
+          "sr",
+          "sera",
+          "seria",
+          "serio",
+          "sra",
+          "cero",
+          "cerro",
+          "sur"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ser"
+      },
+      {
+        "from": [
+          "va",
+          "fe",
+          "fue",
+          "ve",
+          "vaya",
+          "vi",
+          "fui",
+          "via"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "va"
+      },
+      {
+        "from": [
+          "de",
+          "dia",
+          "te",
+          "da",
+          "tu",
+          "dio",
+          "ti",
+          "pta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "de"
+      },
+      {
+        "from": [
+          "quieren",
+          "gran",
+          "corona",
+          "creen",
+          "quieran",
+          "craneo",
+          "grano",
+          "querran"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "quieren"
+      },
+      {
+        "from": [
+          "granda",
+          "grande",
+          "creando",
+          "creyendo",
+          "granada",
+          "granito",
+          "queriendo",
+          "gerente"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "grande"
+      },
+      {
+        "from": [
+          "en",
+          "un",
+          "una",
+          "aun",
+          "uno",
+          "an",
+          "ana",
+          "on"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "en"
+      },
+      {
+        "from": [
+          "casa",
+          "caso",
+          "cosa",
+          "casi",
+          "guayas",
+          "cuyos",
+          "quiza",
+          "causa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "casa"
+      },
+      {
+        "from": [
+          "bien",
+          "buena",
+          "bueno",
+          "pena",
+          "buen",
+          "ban",
+          "pan",
+          "pone"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bien"
+      },
+      {
+        "from": [
+          "tiene",
+          "tan",
+          "dan",
+          "den",
+          "digna",
+          "digno",
+          "daño",
+          "tenia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tiene"
+      },
+      {
+        "from": [
+          "cuando",
+          "cuanta",
+          "cuenta",
+          "canto",
+          "cuento",
+          "gante",
+          "kennedy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cuando"
+      },
+      {
+        "from": [
+          "cada",
+          "queda",
+          "kit",
+          "quito",
+          "quedo",
+          "quede",
+          "quita"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cada"
+      },
+      {
+        "from": [
+          "pasa",
+          "pues",
+          "paso",
+          "piso",
+          "paz",
+          "pese",
+          "pase"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pasa"
+      },
+      {
+        "from": [
+          "hay",
+          "ha",
+          "hoy",
+          "haya",
+          "he",
+          "hai"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hay"
+      },
+      {
+        "from": [
+          "se",
+          "si",
+          "su",
+          "sea",
+          "soy",
+          "so"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "se"
+      },
+      {
+        "from": [
+          "donde",
+          "tanto",
+          "tanta",
+          "dando",
+          "dnd",
+          "tenido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "donde"
+      },
+      {
+        "from": [
+          "el",
+          "al",
+          "alli",
+          "alla",
+          "ala",
+          "ella"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "el"
+      },
+      {
+        "from": [
+          "ayer",
+          "ir",
+          "era",
+          "aire",
+          "area",
+          "oro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ayer"
+      },
+      {
+        "from": [
+          "muere",
+          "mayor",
+          "muera",
+          "murio",
+          "mayoria",
+          "muereya"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muere"
+      },
+      {
+        "from": [
+          "puede",
+          "pueda",
+          "betty",
+          "pide",
+          "pido",
+          "puedo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "puede"
+      },
+      {
+        "from": [
+          "esta",
+          "esto",
+          "este",
+          "estoy",
+          "azota",
+          "osadia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "esta"
+      },
+      {
+        "from": [
+          "virus",
+          "farsa",
+          "fuerza",
+          "varios",
+          "viruz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "virus"
+      },
+      {
+        "from": [
+          "saber",
+          "sobre",
+          "sabra",
+          "subir",
+          "super"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "saber"
+      },
+      {
+        "from": [
+          "puesto",
+          "pasado",
+          "basta",
+          "basto",
+          "pasada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "puesto"
+      },
+      {
+        "from": [
+          "van",
+          "vayan",
+          "viene",
+          "von",
+          "ven"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "van"
+      },
+      {
+        "from": [
+          "vez",
+          "fase",
+          "ves",
+          "vas",
+          "vos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vez"
+      },
+      {
+        "from": [
+          "los",
+          "las",
+          "les",
+          "leyes",
+          "luz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "los"
+      },
+      {
+        "from": [
+          "mas",
+          "mes",
+          "mis",
+          "mies",
+          "ms"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mas"
+      },
+      {
+        "from": [
+          "son",
+          "sin",
+          "sino",
+          "san",
+          "suena"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "son"
+      },
+      {
+        "from": [
+          "dar",
+          "diaria",
+          "diario",
+          "dura",
+          "tarea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dar"
+      },
+      {
+        "from": [
+          "dias",
+          "dios",
+          "dice",
+          "dos",
+          "tos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dias"
+      },
+      {
+        "from": [
+          "mundo",
+          "manta",
+          "mando",
+          "monte",
+          "minuto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mundo"
+      },
+      {
+        "from": [
+          "entre",
+          "andar",
+          "entero",
+          "entierre",
+          "entra"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "entre"
+      },
+      {
+        "from": [
+          "la",
+          "lo",
+          "le",
+          "lio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "la"
+      },
+      {
+        "from": [
+          "me",
+          "mi",
+          "muy",
+          "ma"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "me"
+      },
+      {
+        "from": [
+          "seguir",
+          "seguro",
+          "sacar",
+          "siquiera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "seguir"
+      },
+      {
+        "from": [
+          "fueron",
+          "veran",
+          "vorina",
+          "vieron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fueron"
+      },
+      {
+        "from": [
+          "santa",
+          "siendo",
+          "sanado",
+          "siento"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "santa"
+      },
+      {
+        "from": [
+          "saben",
+          "suben",
+          "supone",
+          "suban"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "saben"
+      },
+      {
+        "from": [
+          "otroas",
+          "otroos",
+          "atras",
+          "otros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "otroas"
+      },
+      {
+        "from": [
+          "crear",
+          "creer",
+          "querer",
+          "curar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crear"
+      },
+      {
+        "from": [
+          "causado",
+          "costa",
+          "cueste",
+          "gusto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "causado"
+      },
+      {
+        "from": [
+          "demas",
+          "damos",
+          "temas",
+          "tomas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "demas"
+      },
+      {
+        "from": [
+          "turno",
+          "dieran",
+          "tiran",
+          "dieron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "turno"
+      },
+      {
+        "from": [
+          "todos",
+          "datos",
+          "todas",
+          "dados"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "todos"
+      },
+      {
+        "from": [
+          "cartas",
+          "gratis",
+          "gritos",
+          "guardias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cartas"
+      },
+      {
+        "from": [
+          "pueden",
+          "puedan",
+          "boton",
+          "piden"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pueden"
+      },
+      {
+        "from": [
+          "cuantos",
+          "cuentas",
+          "cuentos",
+          "cuantas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cuantos"
+      },
+      {
+        "from": [
+          "canton",
+          "cuentan",
+          "continua",
+          "continue"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "canton"
+      },
+      {
+        "from": [
+          "idea",
+          "otto",
+          "ud",
+          "ido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "idea"
+      },
+      {
+        "from": [
+          "haber",
+          "habra",
+          "habre",
+          "habria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "haber"
+      },
+      {
+        "from": [
+          "hecho",
+          "haga",
+          "hago",
+          "haiga"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hecho"
+      },
+      {
+        "from": [
+          "mal",
+          "mala",
+          "mall",
+          "malo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mal"
+      },
+      {
+        "from": [
+          "nada",
+          "nadie",
+          "nota",
+          "nadaaaa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nada"
+      },
+      {
+        "from": [
+          "solo",
+          "salio",
+          "sale",
+          "suele"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "solo"
+      },
+      {
+        "from": [
+          "sabe",
+          "sabio",
+          "sube",
+          "subio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sabe"
+      },
+      {
+        "from": [
+          "toque",
+          "digo",
+          "toca",
+          "diga"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "toque"
+      },
+      {
+        "from": [
+          "del",
+          "tal",
+          "daule",
+          "tele"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "del"
+      },
+      {
+        "from": [
+          "tome",
+          "tomo",
+          "tema",
+          "toma"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tome"
+      },
+      {
+        "from": [
+          "todo",
+          "toda",
+          "dado",
+          "dada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "todo"
+      },
+      {
+        "from": [
+          "mueren",
+          "miren",
+          "moreno",
+          "marean"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mueren"
+      },
+      {
+        "from": [
+          "produce",
+          "puertas",
+          "perdiz",
+          "puertos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "produce"
+      },
+      {
+        "from": [
+          "ministro",
+          "ministerio",
+          "ministra",
+          "minsiterio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ministro"
+      },
+      {
+        "from": [
+          "acaso",
+          "aguas",
+          "huecos",
+          "yaquese"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "acaso"
+      },
+      {
+        "from": [
+          "ayusteda",
+          "estado",
+          "usted",
+          "estat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ayusteda"
+      },
+      {
+        "from": [
+          "mentira",
+          "mentir",
+          "mandar",
+          "montar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mentira"
+      },
+      {
+        "from": [
+          "que",
+          "cae",
+          "coe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "que"
+      },
+      {
+        "from": [
+          "falso",
+          "falsa",
+          "viles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "falso"
+      },
+      {
+        "from": [
+          "falta",
+          "falto",
+          "vuelta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "falta"
+      },
+      {
+        "from": [
+          "pais",
+          "bo",
+          "pa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pais"
+      },
+      {
+        "from": [
+          "famosa",
+          "vamos",
+          "vimos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "famosa"
+      },
+      {
+        "from": [
+          "viendo",
+          "venido",
+          "venta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "viendo"
+      },
+      {
+        "from": [
+          "siguen",
+          "segun",
+          "sigan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "siguen"
+      },
+      {
+        "from": [
+          "fuerte",
+          "vrdd",
+          "verdi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fuerte"
+      },
+      {
+        "from": [
+          "salud",
+          "salida",
+          "sueldo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "salud"
+      },
+      {
+        "from": [
+          "fotos",
+          "vidas",
+          "videos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fotos"
+      },
+      {
+        "from": [
+          "cierto",
+          "cierta",
+          "suerte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cierto"
+      },
+      {
+        "from": [
+          "interesa",
+          "interes",
+          "interese"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "interesa"
+      },
+      {
+        "from": [
+          "alguien",
+          "algun",
+          "alguna"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "alguien"
+      },
+      {
+        "from": [
+          "claro",
+          "cloro",
+          "clara"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "claro"
+      },
+      {
+        "from": [
+          "publica",
+          "publico",
+          "publique"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "publica"
+      },
+      {
+        "from": [
+          "carta",
+          "querida",
+          "curada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "carta"
+      },
+      {
+        "from": [
+          "carros",
+          "crees",
+          "cruz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "carros"
+      },
+      {
+        "from": [
+          "cuiden",
+          "kedan",
+          "quedan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cuiden"
+      },
+      {
+        "from": [
+          "kits",
+          "quedes",
+          "quédese"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "kits"
+      },
+      {
+        "from": [
+          "tengo",
+          "tenga",
+          "dengue"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tengo"
+      },
+      {
+        "from": [
+          "tres",
+          "darse",
+          "tiros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tres"
+      },
+      {
+        "from": [
+          "desde",
+          "diasde",
+          "diosito"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "desde"
+      },
+      {
+        "from": [
+          "ningenieroun",
+          "ningenierouna",
+          "ningenierouno"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ningenieroun"
+      },
+      {
+        "from": [
+          "detiene",
+          "dodne",
+          "doten"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "detiene"
+      },
+      {
+        "from": [
+          "punto",
+          "bonita",
+          "bonito"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "punto"
+      },
+      {
+        "from": [
+          "parece",
+          "barrios",
+          "perez"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "parece"
+      },
+      {
+        "from": [
+          "parte",
+          "barato",
+          "puerta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "parte"
+      },
+      {
+        "from": [
+          "lugar",
+          "llegar",
+          "llegaria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lugar"
+      },
+      {
+        "from": [
+          "cansada",
+          "conocido",
+          "consta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cansada"
+      },
+      {
+        "from": [
+          "apoyo",
+          "epp",
+          "web"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "apoyo"
+      },
+      {
+        "from": [
+          "fila",
+          "vale",
+          "falla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fila"
+      },
+      {
+        "from": [
+          "ver",
+          "fuera",
+          "viru"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ver"
+      },
+      {
+        "from": [
+          "vacio",
+          "fecha",
+          "ficha"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vacio"
+      },
+      {
+        "from": [
+          "cual",
+          "calle",
+          "callo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cual"
+      },
+      {
+        "from": [
+          "falsas",
+          "falsos",
+          "falzos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "falsas"
+      },
+      {
+        "from": [
+          "laidea",
+          "light",
+          "lata"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "laidea"
+      },
+      {
+        "from": [
+          "poco",
+          "boca",
+          "poca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "poco"
+      },
+      {
+        "from": [
+          "reyes",
+          "rios",
+          "risa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "reyes"
+      },
+      {
+        "from": [
+          "rata",
+          "red",
+          "rueda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "rata"
+      },
+      {
+        "from": [
+          "sigue",
+          "xq",
+          "siga"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sigue"
+      },
+      {
+        "from": [
+          "debe",
+          "tipo",
+          "debio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "debe"
+      },
+      {
+        "from": [
+          "primero",
+          "primer",
+          "primera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primero"
+      },
+      {
+        "from": [
+          "mayores",
+          "mueres",
+          "merece"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mayores"
+      },
+      {
+        "from": [
+          "bendice",
+          "biendios",
+          "bonitas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bendice"
+      },
+      {
+        "from": [
+          "evaden",
+          "evitan",
+          "eviten"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "evaden"
+      },
+      {
+        "from": [
+          "enfermeras",
+          "enfermeros",
+          "enfermers"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "enfermeras"
+      },
+      {
+        "from": [
+          "unico",
+          "unica",
+          "aunque"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "unico"
+      },
+      {
+        "from": [
+          "nosotroos",
+          "nuestros",
+          "nuestras"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nosotroos"
+      },
+      {
+        "from": [
+          "unos",
+          "años",
+          "unas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "unos"
+      },
+      {
+        "from": [
+          "aburre",
+          "apoyar",
+          "ibarra"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aburre"
+      },
+      {
+        "from": [
+          "razon",
+          "recien",
+          "rocien"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "razon"
+      },
+      {
+        "from": [
+          "estos",
+          "estas",
+          "ustdes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estos"
+      },
+      {
+        "from": [
+          "resto",
+          "receta",
+          "rosado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "resto"
+      },
+      {
+        "from": [
+          "otroa",
+          "otroo",
+          "otro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "otroa"
+      },
+      {
+        "from": [
+          "muertos",
+          "muertes",
+          "martes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muertos"
+      },
+      {
+        "from": [
+          "mientan",
+          "mienten",
+          "mandan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mientan"
+      },
+      {
+        "from": [
+          "justo",
+          "jasta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "justo"
+      },
+      {
+        "from": [
+          "discurso",
+          "desgracia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "discurso"
+      },
+      {
+        "from": [
+          "focos",
+          "vagos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "focos"
+      },
+      {
+        "from": [
+          "ecuador",
+          "acatar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ecuador"
+      },
+      {
+        "from": [
+          "no",
+          "ni"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      },
+      {
+        "from": [
+          "hablen",
+          "hablan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hablen"
+      },
+      {
+        "from": [
+          "externa",
+          "extraña"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "externa"
+      },
+      {
+        "from": [
+          "forma",
+          "firme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "forma"
+      },
+      {
+        "from": [
+          "funcion",
+          "funcione"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "funcion"
+      },
+      {
+        "from": [
+          "salen",
+          "salina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "salen"
+      },
+      {
+        "from": [
+          "deusteda",
+          "dusteda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "deusteda"
+      },
+      {
+        "from": [
+          "solas",
+          "solos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "solas"
+      },
+      {
+        "from": [
+          "recuperada",
+          "recuperado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "recuperada"
+      },
+      {
+        "from": [
+          "vocera",
+          "vocero"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vocera"
+      },
+      {
+        "from": [
+          "visto",
+          "visita"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "visto"
+      },
+      {
+        "from": [
+          "negativas",
+          "negativos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "negativas"
+      },
+      {
+        "from": [
+          "somos",
+          "seamos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "somos"
+      },
+      {
+        "from": [
+          "señor",
+          "señora"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "señor"
+      },
+      {
+        "from": [
+          "ciencia",
+          "signos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ciencia"
+      },
+      {
+        "from": [
+          "fuentes",
+          "vayanse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fuentes"
+      },
+      {
+        "from": [
+          "recuperados",
+          "recuperadas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "recuperados"
+      },
+      {
+        "from": [
+          "necesarios",
+          "necesarias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "necesarios"
+      },
+      {
+        "from": [
+          "cerca",
+          "circo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cerca"
+      },
+      {
+        "from": [
+          "idiotas",
+          "edades"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "idiotas"
+      },
+      {
+        "from": [
+          "exista",
+          "existe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "exista"
+      },
+      {
+        "from": [
+          "muestra",
+          "misterio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muestra"
+      },
+      {
+        "from": [
+          "sueldos",
+          "salidas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sueldos"
+      },
+      {
+        "from": [
+          "guayaquil",
+          "google"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "guayaquil"
+      },
+      {
+        "from": [
+          "calles",
+          "caules"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "calles"
+      },
+      {
+        "from": [
+          "confirmados",
+          "confirmadas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "confirmados"
+      },
+      {
+        "from": [
+          "confia",
+          "confie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "confia"
+      },
+      {
+        "from": [
+          "terminan",
+          "terminen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "terminan"
+      },
+      {
+        "from": [
+          "cabeza",
+          "capaz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cabeza"
+      },
+      {
+        "from": [
+          "positivos",
+          "positivas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "positivos"
+      },
+      {
+        "from": [
+          "curva",
+          "grave"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "curva"
+      },
+      {
+        "from": [
+          "cargo",
+          "grc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cargo"
+      },
+      {
+        "from": [
+          "cuerpo",
+          "gripe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cuerpo"
+      },
+      {
+        "from": [
+          "estustedie",
+          "estustedio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estustedie"
+      },
+      {
+        "from": [
+          "casos",
+          "cosas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "casos"
+      },
+      {
+        "from": [
+          "davila",
+          "teofilo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "davila"
+      },
+      {
+        "from": [
+          "dejen",
+          "dijan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dejen"
+      },
+      {
+        "from": [
+          "digan",
+          "=digan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "digan"
+      },
+      {
+        "from": [
+          "delegue",
+          "delegueeeeeee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "delegue"
+      },
+      {
+        "from": [
+          "oculten",
+          "ocultan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oculten"
+      },
+      {
+        "from": [
+          "algunos",
+          "algunas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "algunos"
+      },
+      {
+        "from": [
+          "tomen",
+          "toman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tomen"
+      },
+      {
+        "from": [
+          "tomar",
+          "temor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tomar"
+      },
+      {
+        "from": [
+          "tener",
+          "dinero"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tener"
+      },
+      {
+        "from": [
+          "debes",
+          "https"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "debes"
+      },
+      {
+        "from": [
+          "medicos",
+          "medics"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "medicos"
+      },
+      {
+        "from": [
+          "contestan",
+          "contesten"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contestan"
+      },
+      {
+        "from": [
+          "atender",
+          "adentro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "atender"
+      },
+      {
+        "from": [
+          "cuerpos",
+          "grupos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cuerpos"
+      },
+      {
+        "from": [
+          "tarde",
+          "tirado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tarde"
+      },
+      {
+        "from": [
+          "humanas",
+          "humanos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "humanas"
+      },
+      {
+        "from": [
+          "paguen",
+          "pagan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paguen"
+      },
+      {
+        "from": [
+          "dices",
+          "tosos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dices"
+      },
+      {
+        "from": [
+          "total",
+          "detallo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "total"
+      },
+      {
+        "from": [
+          "piloto",
+          "plata"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "piloto"
+      },
+      {
+        "from": [
+          "panico",
+          "pongo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "panico"
+      },
+      {
+        "from": [
+          "llevara",
+          "llevar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "llevara"
+      },
+      {
+        "from": [
+          "gracias",
+          "crisis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gracias"
+      },
+      {
+        "from": [
+          "medidas",
+          "metidos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "medidas"
+      },
+      {
+        "from": [
+          "pueblo",
+          "papel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pueblo"
+      },
+      {
+        "from": [
+          "pregunto",
+          "pregunta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pregunto"
+      },
+      {
+        "from": [
+          "porque",
+          "porq"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "porque"
+      },
+      {
+        "from": [
+          "pasar",
+          "pasaria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pasar"
+      },
+      {
+        "from": [
+          "paises",
+          "pesos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paises"
+      },
+      {
+        "from": [
+          "capacidad",
+          "capacitado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "capacidad"
+      },
+      {
+        "from": [
+          "cancele",
+          "consuelo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cancele"
+      },
+      {
+        "from": [
+          "lindo",
+          "linda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lindo"
+      },
+      {
+        "from": [
+          "nuestro",
+          "nuestra"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nuestro"
+      },
+      {
+        "from": [
+          "contagio",
+          "contagie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contagio"
+      },
+      {
+        "from": [
+          "coronavirus",
+          "coranavirus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coronavirus"
+      },
+      {
+        "from": [
+          "labor",
+          "labora"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "labor"
+      },
+      {
+        "from": [
+          "protestas",
+          "periodistas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "protestas"
+      },
+      {
+        "from": [
+          "pustedieran",
+          "pustedieron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pustedieran"
+      },
+      {
+        "from": [
+          "contagiado",
+          "contagiada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contagiado"
+      },
+      {
+        "from": [
+          "contagios",
+          "contagioso"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contagios"
+      },
+      {
+        "from": [
+          "respeto",
+          "respeta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "respeto"
+      },
+      {
+        "from": [
+          "publicaun",
+          "publicano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "publicaun"
+      },
+      {
+        "from": [
+          "ahi",
+          "ojo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ahi"
+      },
+      {
+        "from": [
+          "aqui",
+          "agua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aqui"
+      },
+      {
+        "from": [
+          "preparados",
+          "preparadas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "preparados"
+      },
+      {
+        "from": [
+          "mentiras",
+          "mientras"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mentiras"
+      },
+      {
+        "from": [
+          "habla",
+          "hablo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "habla"
+      },
+      {
+        "from": [
+          "actualicen",
+          "actualizan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "actualicen"
+      },
+      {
+        "from": [
+          "fallecidos",
+          "fallecidas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fallecidos"
+      },
+      {
+        "from": [
+          "vive",
+          "vivo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vive"
+      },
+      {
+        "from": [
+          "feque",
+          "vago"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "feque"
+      },
+      {
+        "from": [
+          "vida",
+          "video"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vida"
+      },
+      {
+        "from": [
+          "habia",
+          "hep"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "habia"
+      },
+      {
+        "from": [
+          "hora",
+          "hare"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hora"
+      },
+      {
+        "from": [
+          "hace",
+          "hizo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hace"
+      },
+      {
+        "from": [
+          "cafe",
+          "covi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cafe"
+      },
+      {
+        "from": [
+          "con",
+          "quien"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "con"
+      },
+      {
+        "from": [
+          "llego",
+          "luego"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "llego"
+      },
+      {
+        "from": [
+          "lean",
+          "linea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lean"
+      },
+      {
+        "from": [
+          "mano",
+          "min"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mano"
+      },
+      {
+        "from": [
+          "mapa",
+          "map"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mapa"
+      },
+      {
+        "from": [
+          "miedo",
+          "medio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "miedo"
+      },
+      {
+        "from": [
+          "mucho",
+          "mucha"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mucho"
+      },
+      {
+        "from": [
+          "envien",
+          "envian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "envien"
+      },
+      {
+        "from": [
+          "nulo",
+          "nl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nulo"
+      },
+      {
+        "from": [
+          "cuests",
+          "gastos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cuests"
+      },
+      {
+        "from": [
+          "esperamos",
+          "esperemos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "esperamos"
+      },
+      {
+        "from": [
+          "señores",
+          "señooorees"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "señores"
+      },
+      {
+        "from": [
+          "balla",
+          "paul"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "balla"
+      },
+      {
+        "from": [
+          "centro",
+          "sanitaria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "centro"
+      },
+      {
+        "from": [
+          "enfermos",
+          "informes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "enfermos"
+      },
+      {
+        "from": [
+          "sus",
+          "suyas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sus"
+      },
+      {
+        "from": [
+          "sitio",
+          "situa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sitio"
+      },
+      {
+        "from": [
+          "machala",
+          "mocoli"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "machala"
+      },
+      {
+        "from": [
+          "tv",
+          "tuvo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tv"
+      },
+      {
+        "from": [
+          "manera",
+          "menor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "manera"
+      },
+      {
+        "from": [
+          "menos",
+          "manos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "menos"
+      },
+      {
+        "from": [
+          "sean",
+          "chino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sean"
+      },
+      {
+        "from": [
+          "contagiados",
+          "contagiadas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contagiados"
+      },
+      {
+        "from": [
+          "muerto",
+          "muerte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muerto"
+      },
+      {
+        "from": [
+          "ultimas",
+          "ultimos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultimas"
+      },
+      {
+        "from": [
+          "mismo",
+          "misma"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mismo"
+      },
+      {
+        "from": [
+          "antes",
+          "indice"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "antes"
+      },
+      {
+        "from": [
+          "medico",
+          "medica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "medico"
+      },
+      {
+        "from": [
+          "matar",
+          "metro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "matar"
+      },
+      {
+        "from": [
+          "verdaderas",
+          "verdaderos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "verdaderas"
+      },
+      {
+        "from": [
+          "pruebas",
+          "propios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pruebas"
+      },
+      {
+        "from": [
+          "borrosos",
+          "precios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "borrosos"
+      },
+      {
+        "from": [
+          "ustedes",
+          "usteds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ustedes"
+      },
+      {
+        "from": [
+          "persona",
+          "parecen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "persona"
+      },
+      {
+        "from": [
+          "muchos",
+          "muchas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muchos"
+      },
+      {
+        "from": [
+          "engañan",
+          "engañen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "engañan"
+      },
+      {
+        "from": [
+          "arauzcorrea",
+          "arriesgar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "arauzcorrea"
+      },
+      {
+        "from": [
+          "hacerlo",
+          "hacerla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hacerlo"
+      },
+      {
+        "from": [
+          "hicieron",
+          "hicieran"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hicieron"
+      },
+      {
+        "from": [
+          "curense",
+          "grandiosa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "curense"
+      },
+      {
+        "from": [
+          "losquepresentan",
+          "losquepresentes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "losquepresentan"
+      },
+      {
+        "from": [
+          "piensan",
+          "piensen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "piensan"
+      },
+      {
+        "from": [
+          "ciustedadania",
+          "ciustedadano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ciustedadania"
+      },
+      {
+        "from": [
+          "rapidas",
+          "rapidos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "rapidas"
+      },
+      {
+        "from": [
+          "preguntan",
+          "pregunten"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "preguntan"
+      },
+      {
+        "from": [
+          "empiecen",
+          "empiezan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "empiecen"
+      },
+      {
+        "from": [
+          "conciencia",
+          "cansancio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "conciencia"
+      },
+      {
+        "from": [
+          "aqueno",
+          "yegan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aqueno"
+      },
+      {
+        "from": [
+          "elena",
+          "aislan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "elena"
+      },
+      {
+        "from": [
+          "ellos",
+          "alas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ellos"
+      },
+      {
+        "from": [
+          "espero",
+          "espera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "espero"
+      },
+      {
+        "from": [
+          "politicos",
+          "politicas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "politicos"
+      },
+      {
+        "from": [
+          "inicia",
+          "inicio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "inicia"
+      },
+      {
+        "from": [
+          "irresponsables",
+          "irresponsabilidad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "irresponsables"
+      },
+      {
+        "from": [
+          "aceras",
+          "usarse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aceras"
+      },
+      {
+        "from": [
+          "acerca",
+          "acerco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "acerca"
+      },
+      {
+        "from": [
+          "webada",
+          "apiade"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "webada"
+      },
+      {
+        "from": [
+          "informe",
+          "informa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "informe"
+      },
+      {
+        "from": [
+          "estan",
+          "esten"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estan"
+      },
+      {
+        "from": [
+          "estadistica",
+          "estadistico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estadistica"
+      },
+      {
+        "from": [
+          "estadisticas",
+          "estadisticos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estadisticas"
+      },
+      {
+        "from": [
+          "isla",
+          "yosolo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "isla"
+      },
+      {
+        "from": [
+          "osan",
+          "usan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "osan"
+      },
+      {
+        "from": [
+          "tantas",
+          "tontos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tantas"
+      },
+      {
+        "from": [
+          "esos",
+          "esas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "esos"
+      },
+      {
+        "from": [
+          "buscan",
+          "busquen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "buscan"
+      },
+      {
+        "from": [
+          "cualquier",
+          "cualquiera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cualquier"
+      },
+      {
+        "from": [
+          "sacarse",
+          "seguros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sacarse"
+      },
+      {
+        "from": [
+          "pasando",
+          "paseando"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pasando"
+      },
+      {
+        "from": [
+          "huaquillas",
+          "ocles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "huaquillas"
+      },
+      {
+        "from": [
+          "ingenieroresan",
+          "ingenieroresando"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ingenieroresan"
+      },
+      {
+        "from": [
+          "firmar",
+          "formar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "firmar"
+      },
+      {
+        "from": [
+          "gente",
+          "jente"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gente"
+      },
+      {
+        "from": [
+          "favor",
+          "faaavooor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "favor"
+      },
+      {
+        "from": [
+          "obligan",
+          "obliguen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "obligan"
+      },
+      {
+        "from": [
+          "equipar",
+          "acabar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "equipar"
+      },
+      {
+        "from": [
+          "logren",
+          "llegaron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "logren"
+      },
+      {
+        "from": [
+          "mandil",
+          "mundial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mandil"
+      }
+    ],
+    "description": "Mass edit cells in column message"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "y",
+          "hay",
+          "ahi",
+          "jajajaja",
+          "jajajajajajjajaja"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "y"
+      },
+      {
+        "from": [
+          "iess",
+          "hace",
+          "etc",
+          "ojos",
+          "hijos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "iess"
+      },
+      {
+        "from": [
+          "tiene",
+          "dejen",
+          "tome",
+          "dejan",
+          "dejeme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tiene"
+      },
+      {
+        "from": [
+          "no",
+          "me",
+          "mmmm",
+          "niña"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      },
+      {
+        "from": [
+          "proteccion",
+          "producen",
+          "produzcan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "proteccion"
+      },
+      {
+        "from": [
+          "de",
+          "dijo",
+          "deja"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "de"
+      },
+      {
+        "from": [
+          "santa",
+          "soñando",
+          "cynthia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "santa"
+      },
+      {
+        "from": [
+          "muriendo",
+          "mejorando",
+          "naranjito"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muriendo"
+      },
+      {
+        "from": [
+          "muchos",
+          "negocio",
+          "noches"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "negocio"
+      },
+      {
+        "from": [
+          "manejan",
+          "minima",
+          "neumonia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neumonia"
+      },
+      {
+        "from": [
+          "campaña",
+          "cambio",
+          "chimbo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "campaña"
+      },
+      {
+        "from": [
+          "quienes",
+          "camas",
+          "genios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "camas"
+      },
+      {
+        "from": [
+          "estar",
+          "historia",
+          "acceder"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "historia"
+      },
+      {
+        "from": [
+          "donde",
+          "dejando",
+          "tomada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tomada"
+      },
+      {
+        "from": [
+          "demas",
+          "tienes",
+          "dejense"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "demas"
+      },
+      {
+        "from": [
+          "turno",
+          "darme",
+          "dijeron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "turno"
+      },
+      {
+        "from": [
+          "hagan",
+          "aqueno",
+          "jueguen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hagan"
+      },
+      {
+        "from": [
+          "unos",
+          "inicia",
+          "jamas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "unos"
+      },
+      {
+        "from": [
+          "aceras",
+          "oscuras",
+          "hacerse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aceras"
+      },
+      {
+        "from": [
+          "horas",
+          "euros",
+          "orejas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "horas"
+      },
+      {
+        "from": [
+          "distrae",
+          "discutir",
+          "doctora"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "doctora"
+      },
+      {
+        "from": [
+          "amigos",
+          "engaños",
+          "unicos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "engaños"
+      },
+      {
+        "from": [
+          "engañan",
+          "imagen",
+          "ancon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "imagen"
+      },
+      {
+        "from": [
+          "esta",
+          "hasta",
+          "justo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "justo"
+      },
+      {
+        "from": [
+          "prensa",
+          "permiso",
+          "projimos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "prensa"
+      },
+      {
+        "from": [
+          "tenemos",
+          "denuncio",
+          "tomemos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "denuncio"
+      },
+      {
+        "from": [
+          "comemos",
+          "comience",
+          "comunes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "comunes"
+      },
+      {
+        "from": [
+          "aqui",
+          "hecho",
+          "juego"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "juego"
+      },
+      {
+        "from": [
+          "ayer",
+          "ahora",
+          "hora"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hora"
+      },
+      {
+        "from": [
+          "pais",
+          "pasa",
+          "bajos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pais"
+      },
+      {
+        "from": [
+          "cual",
+          "gel",
+          "chile"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gel"
+      },
+      {
+        "from": [
+          "casa",
+          "kits",
+          "cuests"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "kits"
+      },
+      {
+        "from": [
+          "manejo",
+          "mano",
+          "mañana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "manejo"
+      },
+      {
+        "from": [
+          "mas",
+          "nos",
+          "niños"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "niños"
+      },
+      {
+        "from": [
+          "epidemia",
+          "apiaden"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "epidemia"
+      },
+      {
+        "from": [
+          "informe",
+          "enviaron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "informe"
+      },
+      {
+        "from": [
+          "pagamos",
+          "paginas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pagina"
+      },
+      {
+        "from": [
+          "que",
+          "queja"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "queja"
+      },
+      {
+        "from": [
+          "la",
+          "loja"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "loja"
+      },
+      {
+        "from": [
+          "fumiguen",
+          "vengan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fumiguen"
+      },
+      {
+        "from": [
+          "aviacion",
+          "avisan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aviacion"
+      },
+      {
+        "from": [
+          "hablen",
+          "aplana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hablen"
+      },
+      {
+        "from": [
+          "protegan",
+          "protegen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "protegan"
+      },
+      {
+        "from": [
+          "conscientes",
+          "concientes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "conscientes"
+      },
+      {
+        "from": [
+          "queremos",
+          "curense"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "curense"
+      },
+      {
+        "from": [
+          "aparece",
+          "aparecia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aparece"
+      },
+      {
+        "from": [
+          "habran",
+          "aburren"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aburren"
+      },
+      {
+        "from": [
+          "llamadas",
+          "lentos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "llamadas"
+      },
+      {
+        "from": [
+          "salir",
+          "señalar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "salir"
+      },
+      {
+        "from": [
+          "colegios",
+          "colegas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "colegios"
+      },
+      {
+        "from": [
+          "somos",
+          "ciencia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ciencia"
+      },
+      {
+        "from": [
+          "matar",
+          "notoria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "matar"
+      },
+      {
+        "from": [
+          "medios",
+          "noticia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "medios"
+      },
+      {
+        "from": [
+          "recinto",
+          "rociando"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "recinto"
+      },
+      {
+        "from": [
+          "naranjal",
+          "normal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "normal"
+      },
+      {
+        "from": [
+          "aparecen",
+          "aprecian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aprecian"
+      },
+      {
+        "from": [
+          "nunca",
+          "manego"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nunca"
+      },
+      {
+        "from": [
+          "manera",
+          "numero"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "manera"
+      },
+      {
+        "from": [
+          "mejores",
+          "mayores"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mayores"
+      },
+      {
+        "from": [
+          "ordenes",
+          "artimañas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "artimañas"
+      },
+      {
+        "from": [
+          "mismo",
+          "mision"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mision"
+      },
+      {
+        "from": [
+          "calan",
+          "clama"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "claman"
+      },
+      {
+        "from": [
+          "cuando",
+          "gente"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gente"
+      },
+      {
+        "from": [
+          "todos",
+          "tajadas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tajadas"
+      },
+      {
+        "from": [
+          "causado",
+          "chiste"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "chiste"
+      },
+      {
+        "from": [
+          "causan",
+          "guasmo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "guasmo"
+      },
+      {
+        "from": [
+          "habian",
+          "jabon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "jabon"
+      },
+      {
+        "from": [
+          "haber",
+          "aburre"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "haber"
+      },
+      {
+        "from": [
+          "tener",
+          "tomar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tomar"
+      },
+      {
+        "from": [
+          "aduana",
+          "joden"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aduana"
+      },
+      {
+        "from": [
+          "trabajo",
+          "trabaje"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trabajo"
+      },
+      {
+        "from": [
+          "tres",
+          "trajes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trajes"
+      },
+      {
+        "from": [
+          "escuchar",
+          "juzgar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "juzgar"
+      },
+      {
+        "from": [
+          "desde",
+          "descuido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "descuido"
+      },
+      {
+        "from": [
+          "ambato",
+          "empatia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "empatia"
+      },
+      {
+        "from": [
+          "acaso",
+          "hechos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hechos"
+      },
+      {
+        "from": [
+          "aclare",
+          "aislar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aislar"
+      },
+      {
+        "from": [
+          "escuelas",
+          "etclos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "escuelas"
+      },
+      {
+        "from": [
+          "inedito",
+          "inmediata"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "inedito"
+      },
+      {
+        "from": [
+          "haciendo",
+          "asunto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "asunto"
+      },
+      {
+        "from": [
+          "antes",
+          "aniñados"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aniñados"
+      },
+      {
+        "from": [
+          "animo",
+          "enano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "animo"
+      },
+      {
+        "from": [
+          "amor",
+          "enero"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "amor"
+      },
+      {
+        "from": [
+          "arrecho",
+          "heroica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "arrecho"
+      },
+      {
+        "from": [
+          "error",
+          "ahorrar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "error"
+      },
+      {
+        "from": [
+          "evidencia",
+          "evitamos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "evidencia"
+      },
+      {
+        "from": [
+          "hacen",
+          "osan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hacen"
+      },
+      {
+        "from": [
+          "hacer",
+          "oscura"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oscura"
+      },
+      {
+        "from": [
+          "esos",
+          "ascuas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ascuas"
+      },
+      {
+        "from": [
+          "respuesta",
+          "respecto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "respuesta"
+      },
+      {
+        "from": [
+          "ahumente",
+          "aumento"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aumento"
+      },
+      {
+        "from": [
+          "humanas",
+          "anuncio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "humanas"
+      },
+      {
+        "from": [
+          "permita",
+          "pronto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pronto"
+      },
+      {
+        "from": [
+          "presenta",
+          "porcentaje"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "porcentaje"
+      },
+      {
+        "from": [
+          "chimborazo",
+          "compañeros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "chimborazo"
+      },
+      {
+        "from": [
+          "exijan",
+          "ocacione"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "exijan"
+      },
+      {
+        "from": [
+          "contagio",
+          "cuantico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contagio"
+      },
+      {
+        "from": [
+          "nuestro",
+          "muestra"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muestra"
+      },
+      {
+        "from": [
+          "nacional",
+          "nacioanl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nacional"
+      },
+      {
+        "from": [
+          "comisaria",
+          "conocer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "comisaria"
+      },
+      {
+        "from": [
+          "lindo",
+          "llamado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lindo"
+      },
+      {
+        "from": [
+          "lenin",
+          "llamen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lenin"
+      },
+      {
+        "from": [
+          "estamos",
+          "estancia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estancia"
+      },
+      {
+        "from": [
+          "favor",
+          "favorrr"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "favor"
+      },
+      {
+        "from": [
+          "sienten",
+          "sintoma"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sintoma"
+      },
+      {
+        "from": [
+          "apoyo",
+          "habia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "apoyo"
+      },
+      {
+        "from": [
+          "exista",
+          "exacta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "exista"
+      },
+      {
+        "from": [
+          "por",
+          "bajar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bajar"
+      },
+      {
+        "from": [
+          "enteramos",
+          "internos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "internos"
+      },
+      {
+        "from": [
+          "todo",
+          "dejado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "todo"
+      },
+      {
+        "from": [
+          "cantones",
+          "contamos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cantones"
+      },
+      {
+        "from": [
+          "vez",
+          "vacio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vacio"
+      },
+      {
+        "from": [
+          "quiere",
+          "coraje"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coraje"
+      },
+      {
+        "from": [
+          "lean",
+          "llama"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lean"
+      },
+      {
+        "from": [
+          "mapa",
+          "napo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mapa"
+      },
+      {
+        "from": [
+          "nada",
+          "miedo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "miedo"
+      },
+      {
+        "from": [
+          "mucho",
+          "noche"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "noche"
+      },
+      {
+        "from": [
+          "mal",
+          "nulo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mal"
+      },
+      {
+        "from": [
+          "mejor",
+          "muere"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muere"
+      },
+      {
+        "from": [
+          "premio",
+          "pierina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "premio"
+      },
+      {
+        "from": [
+          "reyes",
+          "rocio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "reyes"
+      },
+      {
+        "from": [
+          "ser",
+          "señor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "señor"
+      },
+      {
+        "from": [
+          "armas",
+          "hermosa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "armas"
+      },
+      {
+        "from": [
+          "paciente",
+          "pasando"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paciente"
+      },
+      {
+        "from": [
+          "pandemia",
+          "pintan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pandemia"
+      },
+      {
+        "from": [
+          "amenazar",
+          "anunciar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "amenazar"
+      },
+      {
+        "from": [
+          "corrupcion",
+          "grabacion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "corrupcion"
+      }
+    ],
+    "description": "Mass edit cells in column message"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "confirmados",
+          "samborondo",
+          "confirmado",
+          "compromete"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "confirmados"
+      },
+      {
+        "from": [
+          "buenos",
+          "famosa",
+          "panico",
+          "ponerse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "panico"
+      },
+      {
+        "from": [
+          "estadistica",
+          "estadisticas",
+          "actitusted",
+          "estadisticamente"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estadistica"
+      },
+      {
+        "from": [
+          "enfermeras",
+          "informar",
+          "enfermeraspor",
+          "informaran"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "enfermeras"
+      },
+      {
+        "from": [
+          "informacion",
+          "enfermos",
+          "informaciondeq",
+          "informaciones"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "informacion"
+      },
+      {
+        "from": [
+          "vacuna",
+          "persona",
+          "buscan",
+          "pasan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vacuna"
+      },
+      {
+        "from": [
+          "casos",
+          "sacarse",
+          "chicos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "casos"
+      },
+      {
+        "from": [
+          "estustedie",
+          "estustediantes",
+          "estustedios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estudiantes"
+      },
+      {
+        "from": [
+          "ingenieroresan",
+          "ingenieroresar",
+          "ingenieroresos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ingenieros"
+      },
+      {
+        "from": [
+          "implementos",
+          "implementando",
+          "implementar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "implementos"
+      },
+      {
+        "from": [
+          "ciencia",
+          "camas",
+          "cuenca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ciencia"
+      },
+      {
+        "from": [
+          "puesto",
+          "visto",
+          "fachada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "puesto"
+      },
+      {
+        "from": [
+          "favor",
+          "pobre",
+          "fiebre"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fiebre"
+      },
+      {
+        "from": [
+          "niños",
+          "menos",
+          "nunca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "niños"
+      },
+      {
+        "from": [
+          "importante",
+          "inporten",
+          "invierten"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "importante"
+      },
+      {
+        "from": [
+          "pasar",
+          "vocera",
+          "buscar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vocera"
+      },
+      {
+        "from": [
+          "existen",
+          "existencia",
+          "existente"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "existencia"
+      },
+      {
+        "from": [
+          "pais",
+          "vacio",
+          "poco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pais"
+      },
+      {
+        "from": [
+          "forma",
+          "fueron",
+          "premio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "premio"
+      },
+      {
+        "from": [
+          "focos",
+          "paises",
+          "fuerzas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "focos"
+      },
+      {
+        "from": [
+          "personas",
+          "vacunas",
+          "vecinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "personas"
+      },
+      {
+        "from": [
+          "curva",
+          "sirve",
+          "cuerpo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "curva"
+      },
+      {
+        "from": [
+          "epidemiologica",
+          "epidemiologicos",
+          "epidemiologos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "epidemiologica"
+      },
+      {
+        "from": [
+          "bendice",
+          "fuentes",
+          "fantoche"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bendice"
+      },
+      {
+        "from": [
+          "habitantes",
+          "habitantesquesu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "habitantes"
+      },
+      {
+        "from": [
+          "trabajadores",
+          "trabajador"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trabajadores"
+      },
+      {
+        "from": [
+          "llevara",
+          "labor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "llevara"
+      },
+      {
+        "from": [
+          "evitar",
+          "optar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "evitar"
+      },
+      {
+        "from": [
+          "semana",
+          "comun"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "semana"
+      },
+      {
+        "from": [
+          "engañarnos",
+          "ingenieroenian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "engañarnos"
+      },
+      {
+        "from": [
+          "hospitales",
+          "hospitalizada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hospitales"
+      },
+      {
+        "from": [
+          "ciustedadania",
+          "ciustedadanos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ciudadania"
+      },
+      {
+        "from": [
+          "estancia",
+          "acatamos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estancia"
+      },
+      {
+        "from": [
+          "comunes",
+          "semanas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "comunes"
+      },
+      {
+        "from": [
+          "mientan",
+          "mentian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mientan"
+      },
+      {
+        "from": [
+          "cada",
+          "sitio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sitio"
+      },
+      {
+        "from": [
+          "confirmaron",
+          "confirmar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "confirmar"
+      },
+      {
+        "from": [
+          "prueba",
+          "previa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "prueba"
+      },
+      {
+        "from": [
+          "ecuavisa",
+          "esposo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ecuavisa"
+      },
+      {
+        "from": [
+          "externa",
+          "extremas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "externa"
+      },
+      {
+        "from": [
+          "empiecen",
+          "infeccion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "infeccion"
+      },
+      {
+        "from": [
+          "recibir",
+          "recupera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "recuperarse"
+      },
+      {
+        "from": [
+          "viveres",
+          "pobres"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "viveres"
+      },
+      {
+        "from": [
+          "calles",
+          "solas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "calles"
+      },
+      {
+        "from": [
+          "infectado",
+          "infectados"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "infectado"
+      },
+      {
+        "from": [
+          "impacto",
+          "invicto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "impacto"
+      },
+      {
+        "from": [
+          "investigacion",
+          "investiguen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "investigacion"
+      },
+      {
+        "from": [
+          "masas",
+          "musica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "masas"
+      },
+      {
+        "from": [
+          "siempre",
+          "compre"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "compras"
+      },
+      {
+        "from": [
+          "prensa",
+          "veremos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "prensa"
+      },
+      {
+        "from": [
+          "alimentacion",
+          "alimentos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "alimentacion"
+      },
+      {
+        "from": [
+          "debe",
+          "tv"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tv"
+      },
+      {
+        "from": [
+          "virus",
+          "parece"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "virus"
+      },
+      {
+        "from": [
+          "verdadero",
+          "portador"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "portador"
+      },
+      {
+        "from": [
+          "internos",
+          "internacionalmente"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "internos"
+      },
+      {
+        "from": [
+          "recuperada",
+          "resfriado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "resfriado"
+      },
+      {
+        "from": [
+          "atendiendo",
+          "atendiendole"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "atendiendo"
+      },
+      {
+        "from": [
+          "carros",
+          "cerca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "carros"
+      },
+      {
+        "from": [
+          "nivel",
+          "noble"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "noble"
+      },
+      {
+        "from": [
+          "farmaceutico",
+          "pronostico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "farmaceutico"
+      },
+      {
+        "from": [
+          "dices",
+          "discurso"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "discurso"
+      },
+      {
+        "from": [
+          "medios",
+          "medico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "medico"
+      },
+      {
+        "from": [
+          "aceras",
+          "acerca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aceras"
+      },
+      {
+        "from": [
+          "esfuerzos",
+          "espacios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "esfuerzos"
+      },
+      {
+        "from": [
+          "falso",
+          "policia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "policia"
+      },
+      {
+        "from": [
+          "decencia",
+          "técnica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "decencia"
+      },
+      {
+        "from": [
+          "bucarn",
+          "pasaron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bucaran"
+      },
+      {
+        "from": [
+          "propagandas",
+          "propagando"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "propagandas"
+      },
+      {
+        "from": [
+          "impresion",
+          "inforcuon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "impresion"
+      },
+      {
+        "from": [
+          "levantamiento",
+          "levantamientos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "levantamiento"
+      },
+      {
+        "from": [
+          "infraestructura",
+          "embarazada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "infraestructura"
+      },
+      {
+        "from": [
+          "invertir",
+          "importarles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "invertir"
+      },
+      {
+        "from": [
+          "verdad",
+          "partido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "partido"
+      },
+      {
+        "from": [
+          "fila",
+          "balla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fila"
+      },
+      {
+        "from": [
+          "inconsciente",
+          "inconciencia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "inconsciente"
+      },
+      {
+        "from": [
+          "incansablemente",
+          "inconcebible"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "incansablemente"
+      },
+      {
+        "from": [
+          "ecuatorianos",
+          "estaremos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ecuatorianos"
+      },
+      {
+        "from": [
+          "aviacion",
+          "opcion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aviacion"
+      },
+      {
+        "from": [
+          "saber",
+          "cifra"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cifra"
+      },
+      {
+        "from": [
+          "funcion",
+          "piensan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "funcion"
+      },
+      {
+        "from": [
+          "centro",
+          "contra"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "centro"
+      },
+      {
+        "from": [
+          "medicos",
+          "noticias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "noticias"
+      },
+      {
+        "from": [
+          "preparados",
+          "preparadosmienten"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "preparados"
+      },
+      {
+        "from": [
+          "van",
+          "bien"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "van"
+      },
+      {
+        "from": [
+          "descubri",
+          "diaspor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "descubrir"
+      },
+      {
+        "from": [
+          "transportar",
+          "transparentando"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "transportar"
+      },
+      {
+        "from": [
+          "cementerio",
+          "comunitario"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cementerio"
+      },
+      {
+        "from": [
+          "falsas",
+          "policias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "falsas"
+      },
+      {
+        "from": [
+          "grafica",
+          "graves"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "grafica"
+      },
+      {
+        "from": [
+          "medicamento",
+          "medicamentos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "medicamento"
+      },
+      {
+        "from": [
+          "chiste",
+          "sucede"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "chiste"
+      },
+      {
+        "from": [
+          "salir",
+          "claro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "salir"
+      },
+      {
+        "from": [
+          "nosotroos",
+          "muestras"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nosotroos"
+      },
+      {
+        "from": [
+          "personal",
+          "vasenilla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "personal"
+      },
+      {
+        "from": [
+          "puede",
+          "vida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vida"
+      },
+      {
+        "from": [
+          "carcel",
+          "circulo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "carcel"
+      },
+      {
+        "from": [
+          "cifras",
+          "choferes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "choferes"
+      },
+      {
+        "from": [
+          "crear",
+          "cerrar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crear"
+      },
+      {
+        "from": [
+          "enfermedad",
+          "enfermedades"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "enfermedad"
+      },
+      {
+        "from": [
+          "poder",
+          "viteri"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "poder"
+      },
+      {
+        "from": [
+          "culpa",
+          "clave"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "culpa"
+      },
+      {
+        "from": [
+          "mapa",
+          "nuevo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mapa"
+      },
+      {
+        "from": [
+          "ademas",
+          "aduanas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aduanas"
+      },
+      {
+        "from": [
+          "administracion",
+          "administrar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "administracion"
+      },
+      {
+        "from": [
+          "emergencia",
+          "emergenciaeso"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "emergencia"
+      },
+      {
+        "from": [
+          "pueblo",
+          "viable"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pueblo"
+      },
+      {
+        "from": [
+          "poblacion",
+          "publicaun"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "poblacion"
+      },
+      {
+        "from": [
+          "conocidos",
+          "sensatos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "conocidos"
+      },
+      {
+        "from": [
+          "camilleros",
+          "similares"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "camilleros"
+      },
+      {
+        "from": [
+          "laboratorios",
+          "laboratoristas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "laboratorios"
+      },
+      {
+        "from": [
+          "desobedientes",
+          "despidiendo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "desobedientes"
+      },
+      {
+        "from": [
+          "plan",
+          "vallan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "plan"
+      },
+      {
+        "from": [
+          "calificado",
+          "colapsado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "calificado"
+      },
+      {
+        "from": [
+          "cerraron",
+          "curarme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "curarse"
+      },
+      {
+        "from": [
+          "sentimientos",
+          "contaminado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sentimientos"
+      },
+      {
+        "from": [
+          "masibos",
+          "nuesvos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "masivos"
+      },
+      {
+        "from": [
+          "presidente",
+          "procedentes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "procedentes"
+      },
+      {
+        "from": [
+          "cantantes",
+          "sintomatica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cantantes"
+      },
+      {
+        "from": [
+          "sintomas",
+          "cantones"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sintomas"
+      },
+      {
+        "from": [
+          "cuantos",
+          "cientos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cuantos"
+      },
+      {
+        "from": [
+          "falta",
+          "piloto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "falta"
+      },
+      {
+        "from": [
+          "negligencia",
+          "negligencias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "negligencia"
+      },
+      {
+        "from": [
+          "provincias",
+          "propensos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "provincias"
+      },
+      {
+        "from": [
+          "cuiden",
+          "sitema"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sistema"
+      },
+      {
+        "from": [
+          "paguen",
+          "pagina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pagina"
+      },
+      {
+        "from": [
+          "cierto",
+          "carta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cierto"
+      },
+      {
+        "from": [
+          "canton",
+          "sintoma"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "canton"
+      },
+      {
+        "from": [
+          "electoral",
+          "electorales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "electoral"
+      },
+      {
+        "from": [
+          "responsables",
+          "responsabilidad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "responsables"
+      },
+      {
+        "from": [
+          "produce",
+          "fuertes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fuertes"
+      },
+      {
+        "from": [
+          "batalla",
+          "fatal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "batalla"
+      },
+      {
+        "from": [
+          "engaños",
+          "imagenes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "engaños"
+      },
+      {
+        "from": [
+          "pongan",
+          "fumiguen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pongan"
+      },
+      {
+        "from": [
+          "epidemia",
+          "evaden"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "epidemia"
+      },
+      {
+        "from": [
+          "torpeza",
+          "traves"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "torpeza"
+      },
+      {
+        "from": [
+          "representen",
+          "representante"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "representen"
+      },
+      {
+        "from": [
+          "parasito",
+          "verdsd"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "parasito"
+      },
+      {
+        "from": [
+          "depende",
+          "difunde"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "depende"
+      },
+      {
+        "from": [
+          "cartas",
+          "sordos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cartas"
+      },
+      {
+        "from": [
+          "pandemia",
+          "venden"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pandemia"
+      }
+    ],
+    "description": "Mass edit cells in column message"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "negocio",
+          "negocios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "negocio"
+      },
+      {
+        "from": [
+          "ecuatorianos",
+          "ecuatoriano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ecuatorianos"
+      },
+      {
+        "from": [
+          "mascarillas",
+          "mazcarilla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mascarillas"
+      },
+      {
+        "from": [
+          "estudiantes",
+          "estidiantes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estudiantes"
+      },
+      {
+        "from": [
+          "concierto",
+          "conciertos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "concierto"
+      }
+    ],
+    "description": "Mass edit cells in column message"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "realizar",
+          "realizado",
+          "realizan",
+          "realizarse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "realizar"
+      },
+      {
+        "from": [
+          "terminan",
+          "termina",
+          "terminar",
+          "terminamos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "terminan"
+      },
+      {
+        "from": [
+          "entregando",
+          "entrega",
+          "entregados",
+          "entregar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "entregando"
+      },
+      {
+        "from": [
+          "bioseguridad",
+          "seguridad",
+          "inseguridad",
+          "seguridades"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bioseguridad"
+      },
+      {
+        "from": [
+          "familia",
+          "familias",
+          "familiares",
+          "familiar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "familia"
+      },
+      {
+        "from": [
+          "contagiados",
+          "contagiado",
+          "contagiando",
+          "contagian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contagiados"
+      },
+      {
+        "from": [
+          "doctora",
+          "podoctoran",
+          "saldoctoran",
+          "tendoctoran"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "doctora"
+      },
+      {
+        "from": [
+          "ayusteda",
+          "ayustedar",
+          "deusteda",
+          "ayusteden"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ayusteda"
+      },
+      {
+        "from": [
+          "ningenieroun",
+          "ingenieros",
+          "aningenierouno"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ningenieroun"
+      },
+      {
+        "from": [
+          "personas",
+          "personal",
+          "personalde"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "personas"
+      },
+      {
+        "from": [
+          "provincia",
+          "provincias",
+          "provincialy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "provincia"
+      },
+      {
+        "from": [
+          "seguridad",
+          "inseguridad",
+          "seguridades"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "seguridad"
+      },
+      {
+        "from": [
+          "contagiado",
+          "contagiando",
+          "contagian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contagiado"
+      },
+      {
+        "from": [
+          "necesitan",
+          "necesita",
+          "necesitamos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "necesitan"
+      },
+      {
+        "from": [
+          "muertos",
+          "muerto",
+          "muertoses"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muertos"
+      },
+      {
+        "from": [
+          "trabajando",
+          "trabajar",
+          "trabajan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trabajando"
+      },
+      {
+        "from": [
+          "esperando",
+          "esperan",
+          "esperar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "esperando"
+      },
+      {
+        "from": [
+          "proteger",
+          "protegerse",
+          "protegerte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "proteger"
+      },
+      {
+        "from": [
+          "doctora",
+          "tendoctora",
+          "tendoctoran"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "doctora"
+      },
+      {
+        "from": [
+          "ayusteda",
+          "ayustedar",
+          "ayustedarlo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ayusteda"
+      },
+      {
+        "from": [
+          "propagandas",
+          "propagar",
+          "propagan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "propagandas"
+      },
+      {
+        "from": [
+          "ayusteda",
+          "ayusteden",
+          "ayustedenme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ayusteda"
+      },
+      {
+        "from": [
+          "registrar",
+          "registra",
+          "registrado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "registrar"
+      },
+      {
+        "from": [
+          "necesario",
+          "necesarios",
+          "necesariosque"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "necesario"
+      },
+      {
+        "from": [
+          "terminan",
+          "termina",
+          "terminar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "terminan"
+      },
+      {
+        "from": [
+          "publica",
+          "publicar",
+          "republica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "publica"
+      },
+      {
+        "from": [
+          "importante",
+          "importa",
+          "portan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "importante"
+      },
+      {
+        "from": [
+          "familia",
+          "familias",
+          "familiar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "familia"
+      },
+      {
+        "from": [
+          "resultados",
+          "resultado",
+          "resulta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "resultados"
+      },
+      {
+        "from": [
+          "controles",
+          "control",
+          "controlar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "controles"
+      },
+      {
+        "from": [
+          "acondicionada",
+          "condiciones"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "acondicionada"
+      },
+      {
+        "from": [
+          "controles",
+          "control"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "controles"
+      },
+      {
+        "from": [
+          "laboratorio",
+          "laboratorios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "laboratorio"
+      },
+      {
+        "from": [
+          "posible",
+          "posibles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "posible"
+      },
+      {
+        "from": [
+          "pongan",
+          "ponganse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pongan"
+      },
+      {
+        "from": [
+          "bioseguridad",
+          "seguridad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bioseguridad"
+      },
+      {
+        "from": [
+          "entrega",
+          "entregados"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "entrega"
+      },
+      {
+        "from": [
+          "aduana",
+          "aduanas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aduana"
+      },
+      {
+        "from": [
+          "mentira",
+          "mentiras"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mentira"
+      },
+      {
+        "from": [
+          "articulos",
+          "particular"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "articulos"
+      },
+      {
+        "from": [
+          "nombres",
+          "nombre"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nombres"
+      },
+      {
+        "from": [
+          "investigacion",
+          "insvestigacion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "investigacion"
+      },
+      {
+        "from": [
+          "campaña",
+          "campañas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "campaña"
+      },
+      {
+        "from": [
+          "trabajar",
+          "trabajan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trabajar"
+      },
+      {
+        "from": [
+          "realizar",
+          "realizado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "realizar"
+      },
+      {
+        "from": [
+          "examenes",
+          "examen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "examenes"
+      },
+      {
+        "from": [
+          "dificil",
+          "dificiles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dificil"
+      },
+      {
+        "from": [
+          "resultados",
+          "resultado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "resultados"
+      },
+      {
+        "from": [
+          "estaban",
+          "estaba"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estaban"
+      },
+      {
+        "from": [
+          "motivo",
+          "motivos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "motivo"
+      },
+      {
+        "from": [
+          "realizar",
+          "realizarse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "realizar"
+      },
+      {
+        "from": [
+          "desprotegidos",
+          "protegidos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "desprotegidos"
+      },
+      {
+        "from": [
+          "solucion",
+          "soluciones"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "solucion"
+      },
+      {
+        "from": [
+          "region",
+          "regional"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "region"
+      },
+      {
+        "from": [
+          "termina",
+          "terminamos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "termina"
+      },
+      {
+        "from": [
+          "ministro",
+          "ministros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ministro"
+      },
+      {
+        "from": [
+          "batalla",
+          "batallar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "batalla"
+      },
+      {
+        "from": [
+          "evidencia",
+          "evidencias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "evidencia"
+      },
+      {
+        "from": [
+          "medicinas",
+          "medicina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "medicinas"
+      },
+      {
+        "from": [
+          "parasito",
+          "parasitos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "parasito"
+      },
+      {
+        "from": [
+          "entrega",
+          "entregar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "entrega"
+      },
+      {
+        "from": [
+          "entregando",
+          "entrega"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "entregando"
+      },
+      {
+        "from": [
+          "magnitusted",
+          "talmagnitusted"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "magnitusted"
+      },
+      {
+        "from": [
+          "equipo",
+          "equipos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "equipo"
+      },
+      {
+        "from": [
+          "infeccion",
+          "infecciones"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "infeccion"
+      },
+      {
+        "from": [
+          "momento",
+          "momentos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "momento"
+      },
+      {
+        "from": [
+          "laborar",
+          "laborat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "laborar"
+      },
+      {
+        "from": [
+          "guayaquil",
+          "guayaqui"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "guayaquil"
+      },
+      {
+        "from": [
+          "dedica",
+          "dedicando"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dedica"
+      },
+      {
+        "from": [
+          "centro",
+          "centros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "centro"
+      },
+      {
+        "from": [
+          "doctora",
+          "saldoctoran"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "doctora"
+      },
+      {
+        "from": [
+          "primero",
+          "primeros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primero"
+      },
+      {
+        "from": [
+          "tendoctora",
+          "tendoctoran"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tendoctora"
+      },
+      {
+        "from": [
+          "ayustedar",
+          "ayustedarlo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ayustedar"
+      },
+      {
+        "from": [
+          "personas",
+          "personal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "personas"
+      },
+      {
+        "from": [
+          "principio",
+          "principios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "principio"
+      },
+      {
+        "from": [
+          "confia",
+          "confiada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "confia"
+      },
+      {
+        "from": [
+          "muertos",
+          "muerto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muertos"
+      },
+      {
+        "from": [
+          "publica",
+          "publicar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "publica"
+      },
+      {
+        "from": [
+          "inconsciente",
+          "conscientes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "inconsciente"
+      },
+      {
+        "from": [
+          "servidores",
+          "servido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "servidores"
+      },
+      {
+        "from": [
+          "ayusteden",
+          "ayustedenme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ayusteden"
+      },
+      {
+        "from": [
+          "asustada",
+          "asustados"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "asustada"
+      },
+      {
+        "from": [
+          "preguntan",
+          "preguntar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "preguntan"
+      },
+      {
+        "from": [
+          "irresponsables",
+          "responsables"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "irresponsables"
+      },
+      {
+        "from": [
+          "paciente",
+          "pacientes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paciente"
+      },
+      {
+        "from": [
+          "ningenieroun",
+          "aningenierouno"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ningenieroun"
+      },
+      {
+        "from": [
+          "oficial",
+          "oficiales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oficial"
+      },
+      {
+        "from": [
+          "control",
+          "controlar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "control"
+      },
+      {
+        "from": [
+          "reactivos",
+          "reactivo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "reactivos"
+      },
+      {
+        "from": [
+          "deberian",
+          "deberia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "deberian"
+      },
+      {
+        "from": [
+          "doctora",
+          "podoctoran"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "doctora"
+      },
+      {
+        "from": [
+          "registrar",
+          "registra"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "registrar"
+      },
+      {
+        "from": [
+          "proteger",
+          "protegerte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "proteger"
+      },
+      {
+        "from": [
+          "bastante",
+          "bastantes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bastante"
+      },
+      {
+        "from": [
+          "constan",
+          "constante"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "constan"
+      },
+      {
+        "from": [
+          "italia",
+          "italiana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "italia"
+      },
+      {
+        "from": [
+          "capacidad",
+          "discapacidad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "capacidad"
+      },
+      {
+        "from": [
+          "propagandas",
+          "propagan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "propagandas"
+      },
+      {
+        "from": [
+          "contagios",
+          "contagio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contagios"
+      },
+      {
+        "from": [
+          "bancaria",
+          "bancarias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bancaria"
+      },
+      {
+        "from": [
+          "importante",
+          "importa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "importante"
+      },
+      {
+        "from": [
+          "enseguida",
+          "seguidas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "enseguida"
+      },
+      {
+        "from": [
+          "poblacion",
+          "poblacional"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "poblacion"
+      },
+      {
+        "from": [
+          "necesarios",
+          "necesariosque"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "necesarios"
+      },
+      {
+        "from": [
+          "señores",
+          "señoresla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "señores"
+      },
+      {
+        "from": [
+          "hospitales",
+          "hospital"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hospitales"
+      },
+      {
+        "from": [
+          "alarmar",
+          "alarmarse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "alarmar"
+      },
+      {
+        "from": [
+          "sospechosos",
+          "sospechas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sospechosos"
+      },
+      {
+        "from": [
+          "delministerio",
+          "elministerio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "delministerio"
+      },
+      {
+        "from": [
+          "precauciones",
+          "precaucion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "precauciones"
+      },
+      {
+        "from": [
+          "interesa",
+          "interesan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "interesa"
+      },
+      {
+        "from": [
+          "excusa",
+          "excusas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "excusa"
+      },
+      {
+        "from": [
+          "aparece",
+          "aparecer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aparece"
+      },
+      {
+        "from": [
+          "corrupcion",
+          "corrupciones"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "corrupcion"
+      },
+      {
+        "from": [
+          "muertos",
+          "muertoses"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "muertos"
+      },
+      {
+        "from": [
+          "problema",
+          "problemas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "problema"
+      },
+      {
+        "from": [
+          "desobedientes",
+          "desobediencia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "desobedientes"
+      },
+      {
+        "from": [
+          "ayusteda",
+          "deusteda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ayusteda"
+      },
+      {
+        "from": [
+          "fumigacion",
+          "fumigaciones"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fumigacion"
+      },
+      {
+        "from": [
+          "fuertes",
+          "fuerte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fuertes"
+      },
+      {
+        "from": [
+          "renuncia",
+          "renunciar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "renuncia"
+      },
+      {
+        "from": [
+          "inutil",
+          "inutiles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "inutil"
+      },
+      {
+        "from": [
+          "entienden",
+          "entiendo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "entienden"
+      },
+      {
+        "from": [
+          "cuidar",
+          "cuidarles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cuidar"
+      },
+      {
+        "from": [
+          "gobierno",
+          "gobiernos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gobierno"
+      },
+      {
+        "from": [
+          "estuvieron",
+          "tuvieron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "estuvieron"
+      },
+      {
+        "from": [
+          "ningenieroun",
+          "ingenieros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ningenieroun"
+      },
+      {
+        "from": [
+          "importante",
+          "portan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "importante"
+      },
+      {
+        "from": [
+          "trabajando",
+          "trabajan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trabajando"
+      },
+      {
+        "from": [
+          "familiares",
+          "familiar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "familiares"
+      },
+      {
+        "from": [
+          "esperando",
+          "esperan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "esperando"
+      },
+      {
+        "from": [
+          "tomada",
+          "tomadas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tomada"
+      },
+      {
+        "from": [
+          "fallecidos",
+          "fallecido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fallecidos"
+      },
+      {
+        "from": [
+          "publica",
+          "republica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "publica"
+      },
+      {
+        "from": [
+          "seguir",
+          "seguiran"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "seguir"
+      },
+      {
+        "from": [
+          "informan",
+          "desinforman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "informan"
+      },
+      {
+        "from": [
+          "personal",
+          "personalde"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "personal"
+      },
+      {
+        "from": [
+          "medico",
+          "losmedicos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "medico"
+      },
+      {
+        "from": [
+          "necesidad",
+          "necesidades"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "necesidad"
+      },
+      {
+        "from": [
+          "contagiados",
+          "contagiado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contagiados"
+      },
+      {
+        "from": [
+          "esperan",
+          "esperar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "esperan"
+      },
+      {
+        "from": [
+          "propagar",
+          "propagan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "propagar"
+      },
+      {
+        "from": [
+          "alcalde",
+          "alcaldes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "alcalde"
+      },
+      {
+        "from": [
+          "pruebas",
+          "prueba"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pruebas"
+      },
+      {
+        "from": [
+          "normal",
+          "normales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "normal"
+      },
+      {
+        "from": [
+          "proteger",
+          "protegerse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "proteger"
+      },
+      {
+        "from": [
+          "realizar",
+          "realizan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "realizar"
+      },
+      {
+        "from": [
+          "necesario",
+          "necesarios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "necesario"
+      },
+      {
+        "from": [
+          "registra",
+          "registrado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "registra"
+      },
+      {
+        "from": [
+          "justificar",
+          "justifico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "justificar"
+      },
+      {
+        "from": [
+          "confirmar",
+          "confirman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "confirmar"
+      },
+      {
+        "from": [
+          "autoridades",
+          "autoridad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "autoridades"
+      },
+      {
+        "from": [
+          "preparar",
+          "preparada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "preparar"
+      },
+      {
+        "from": [
+          "balance",
+          "balances"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "balance"
+      }
+    ],
+    "description": "Mass edit cells in column message"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "message",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "quedarse",
+          "quedarte",
+          "quedarxe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "quedarse"
+      },
+      {
+        "from": [
+          "gobierno",
+          "gobierko"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gobierno"
+      },
+      {
+        "from": [
+          "terminan",
+          "termina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "terminan"
+      },
+      {
+        "from": [
+          "personas",
+          "personal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "personas"
+      },
+      {
+        "from": [
+          "registra",
+          "registrar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "registra"
+      },
+      {
+        "from": [
+          "contagiados",
+          "contagiado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "contagiados"
+      },
+      {
+        "from": [
+          "dediquense",
+          "dediquese"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dediquense"
+      },
+      {
+        "from": [
+          "necesario",
+          "necesarios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "necesario"
+      },
+      {
+        "from": [
+          "momento",
+          "comento"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "momento"
+      },
+      {
+        "from": [
+          "compras",
+          "comprar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "compras"
+      },
+      {
+        "from": [
+          "ayusteda",
+          "ayustedar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ayusteda"
+      },
+      {
+        "from": [
+          "guayaquil",
+          "gusayaquil"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "guayaquil"
+      }
+    ],
+    "description": "Mass edit cells in column message"
+  }
+]

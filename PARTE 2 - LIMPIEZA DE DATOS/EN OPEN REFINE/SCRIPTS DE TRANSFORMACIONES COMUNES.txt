@@ -1,0 +1,23 @@
+Con Lenguaje (General Refine Expression Language (GREL)):
+
+#ELIMINAR SÍMBOLOS
+value.replace('#','') .replace('@','') .replace('URL','') .replace(/\:.*/,'') .replace('?','') .replace('¿','') .replace('!','') 
+.replace('¡','').replace('.','') .replace('(','') .replace('-','') .replace('/','') .replace('&','') .replace(':','')
+.replace(')','') .replace(',','') .replace('"','') .replace('*','') .replace('$','') .replace('%','') .replace('+','')
+.replace(';','') .replace('<','') .replace('>','') .replace('[','') .replace(']','') .replace('_','').replace('{','') 
+.replace('}','') .replace('~','') .replace('|','') .replace('^','')
+
+
+#ELIMINAR NÚMEROS
+value.replace('0','') .replace('1','') .replace('2','') .replace('3','')
+.replace('4','') .replace('5','') .replace('6','') .replace('7','')
+.replace('8','') .replace('9','')
+
+#ELIMINAR TÍLDES
+value.replace('á','a') .replace('é','e') .replace('í','i') .replace('ó','o') .replace('ú','u')
+
+#SUSTITUIR PALABRAS
+value.replace("dr","doctor") .replace("Jjjjjjj","risa") .replace("full","mucho") .replace("dra","doctora") .replace("sr","señor") .replace("sra","señora") .replace("srs","señores") .replace("ud","usted") .replace("usd","usted") .replace("uds","ustedes") .replace("chch","malapalabra") .replace("ing","ingeniero") .replace("xq","por que") .replace("dt","director tecnico") .replace("hp","malapalabra") .replace("hdp","malapalabra") .replace("hpta","malapalabra") .replace("hptas","malapalabra") .replace("vs","versus") .replace("codiv","covid") .replace("d","de")
+.replace(" p ","por") .replace(" q ","que") .replace(" n ","ni") .replace(" t ","te") .replace("Xq","por que") .replace("MSP","Ministerio de Salud Pública") .replace("otr","otro") .replace('NO HAY TEXTO','')
+
+
